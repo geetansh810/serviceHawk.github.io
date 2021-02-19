@@ -1,0 +1,107 @@
+@media screen and (max-width: 800px) {
+  .container-fluid {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar-brand {
+    margin-left: 0;
+  }
+  .navbar-brand img {
+    margin-left: 5%;
+  }
+  #mynavbar ul li {
+    margin-left: 100px;
+    text-align: center;
+  }
+  #mynavbar .nav-item {
+    width: 100%;
+  }
+  #mynavbar .nav-link {
+    width: 100%;
+  }
+  #background .navbar-brand {
+    margin-left: 40px;
+  }
+  #background .landing-page {
+    margin: 0 0;
+    padding: 0 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+  }
+  #background .landing-page .landing-page-image {
+    padding: 0 0;
+    margin: 0 0;
+  }
+  #background .landing-page .landing-page-image img {
+    margin: 0 50px;
+    width: 80vw;
+  }
+  #background .landing-page .landing-page-text {
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: center;
+    padding-left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    justify-items: center;
+  }
+  #background .landing-page .landing-page-text h2 {
+    line-height: 40px;
+    width: 300px;
+  }
+  #background .landing-page .landing-page-text p {
+    margin-top: 0;
+    line-height: 20px;
+    font-weight: 10px;
+    width: 300px;
+  }
+  .page-2 {
+    margin: 0 0;
+    padding: 0 0;
+  }
+  .page-2 h2 {
+    margin: 0 0;
+    padding: 0 0;
+  }
+  .page-2 p {
+    margin: 0 0;
+    padding: 0 0;
+  }
+  .page-2 .card {
+    padding: 0 0;
+    margin: 0 0;
+  }
+  #grid {
+    width: 100px;
+  }
+  #grid span img {
+    width: 250px;
+    margin-right: 100px;
+  }
+  #grid h1 {
+    margin-left: 150px;
+  }
+  #grid p {
+    width: 350px;
+    margin-left: 80px;
+  }
+  .grid-container {
+    width: 80vw;
+  }
+  .grid-container div img {
+    width: 150px;
+  }
+  #app img {
+    width: 400px;
+    margin: 10px auto;
+  }
+  .carousel-item p {
+    width: 45vw;
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=l3-style.css.map */
