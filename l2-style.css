@@ -86,7 +86,7 @@
 
 #background .landing-page .landing-page-image img {
   margin-left: 40px;
-  width: 50vw;
+  width: 100%;
 }
 
 #background .landing-page .landing-page-text {
@@ -240,93 +240,44 @@
   margin-right: 100px;
 }
 
-
-#demo {
+#carouselExampleIndicators{
   background: url('https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') no-repeat;
   background-size: cover;
-  height: 100%;
-  padding: 20px;
-  margin: 50px auto;
+  height: 90vh;
 }
+  .img-fluid{
+          border-radius: 50%;
+  }
 
-.carousel-caption {
-  position: initial;
-  z-index: 10;
-  padding: 5rem 8rem;
-  color: white;
-  text-align: center;
-  font-size: 1.2rem;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 2rem
-}
-
-@media(max-width:767px) {
-  .carousel-caption {
-      position: initial;
-      z-index: 10;
-      padding: 3rem 2rem;
-      color:white;
+  .carousel-item{
+      color: white;
+      padding: 100px;
+      justify-items: center;
       text-align: center;
-      font-size: 0.7rem;
-      font-style: italic;
+  }
+
+  .carousel-item p{
+      width: 45vw;
+      margin-left: 25%;
+  }
+  #image-caption{
       font-weight: bold;
-      line-height: 1.5rem
+      font-size: larger;
   }
-}
-
-.carousel-caption img {
-  width: 6rem;
-  border-radius: 5rem;
-  margin-top: 2rem
-}
-
-@media(max-width:767px) {
-  .carousel-caption img {
-      width: 4rem;
-      border-radius: 4rem;
-      margin-top: 1rem
+  .carousel-control-prev{
+       background-color: transparent;
+      border: 0;
   }
-}
-
-#image-caption {
-  font-style: normal;
-  font-size: 1rem;
-  margin-top: 0.5rem
-}
-
-@media(max-width:767px) {
-  #image-caption {
-      font-style: normal;
-      font-size: 0.6rem;
-      margin-top: 0.5rem
+  .carousel-control-prev-icon{
+      background-color: black;
   }
-}
-
-i {
-  background-color: white;
-  padding: 1.4rem
-}
-
-@media(max-width:767px) {
-  i {
-      padding: 0.8rem
+  .carousel-control-next{
+       background-color: transparent;
+      border: 0;
   }
-}
-
-.carousel-control-prev {
-  justify-content: flex-start
-}
-
-.carousel-control-next {
-  justify-content: flex-end
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-  transition: none;
-  opacity: unset
-}
+  .carousel-control-next-icon{
+      background-color: black;
+  }
 
 #footer{
   background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80') no-repeat;
@@ -348,4 +299,12 @@ i {
   width: 200px;
 }
 
+#app{
+  margin-top: 100px;
+  
+}
+
+#app img{
+  width: 100%;
+}
 /*# sourceMappingURL=l2-style.css.map */
